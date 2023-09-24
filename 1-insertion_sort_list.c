@@ -1,12 +1,12 @@
 #include "sort.h"
 
 /**
- * insertion_sort - sorting doubly linked list of ints
+ * insertion_sort_list - sorting doubly linked list of ints
  * @list: DoubleLinkedList to be sorted
  *
  * Return: void
  */
-void insertion_sort(listint_t **list)
+void insertion_sort_list(listint_t **list)
 {
 	listint_t *node = NULL, *temp = NULL;
 
